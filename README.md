@@ -6,14 +6,6 @@
 pip install minimal-cernsso
 ```
 
-or
-
-```
-git clone https://github.com/tklijnsma/minimal-cernsso.git
-pip install -e minimal-cernsso
-```
-
-
 ## Getting certificate files
 
 1. Get a valid `myCertificate.p12` as issued by https://ca.cern.ch/ca/. You can create a new one (`New Grid User certificate`), or use one you have previously created. If you create a new one, for simplicity's sake, do not give it a password, it will be deleted in the steps below anyway.
